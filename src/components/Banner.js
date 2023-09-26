@@ -7,7 +7,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const toRotate = ['Web Developer', 'Programmer', 'Artist'];
   const [text, setText] = useState('');
-  const period = 9000;
+  const period = 2000;
   const [delta, setDelta] = useState(300 - Math.random() * 200);
 
   useEffect(() => {
